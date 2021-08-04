@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f0fa;
+  color: #212529;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.configuration {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.configuration textarea {
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  padding: 0.4rem;
+}
+
+.prompter {
+  display: none;
+  background-color: #000;
+  color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.prompt-control-area {
+  background-color: #212529;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1024px;
+  text-align: center;
+  padding: 0.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prompt-area .text{
+  font-size: 8rem;
+  padding-top: 4rem;
+}
